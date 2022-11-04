@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+/* .container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+} */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+}
+#menu{
+    cursor: pointer;
+    display: none;
+    padding-right: 15px;
+}
+#cross_icon{
+    cursor: pointer;
+    display: none;
+    padding-right: 15px;
+}
+.hamburger_menu{
+    display: none;
+}
+
+.logo_section img{
+    /* width: 120px; */
+    cursor: pointer;
+}
+.mobile_responsive_nav_links{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mobile_responsive_nav_links.active{
+    top: 100px;
+}
+.nav_links a{
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+    padding: 7px 17px;
+    font-weight: 550;
+    font-size: 1rem;
+}
+.nav_links a:hover{
+    color: hsl(227, 12%, 61%);
+}
+.btn{
+    background-color: hsl(12, 88%, 59%);;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 45px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    background-color: orange;
+}
+
+/* navbar section completed  */
+
+/*===== starting hero section ===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s{
+    color: hsl(12, 88%, 59%);
+    color: hsl(228, 39%, 23%);
+    color: hsl(227, 12%, 61%);
+    color: hsl(233, 12%, 13%);
+    color: hsl(13, 100%, 96%);
+    color: hsl(0, 0%, 98%);
+}
