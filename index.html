@@ -8,53 +8,251 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="media-query.css">
   <script defer src="app.js"></script>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
 
-  <header>
-    <!-- logo section  -->
-    <section class="logo_section">
-      <img src="./images/logo.svg" alt="logo">
-    </section>
-    
-
-    <section class="mobile_responsive_nav_links" id="nav_links">
-        <!-- nav links section  -->
-      <section class="nav_links_section">
-        <nav class="nav_links">
-          <a href="#">Pricing</a>
-          <a href="#">Product</a>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Community</a>
-        </nav>
-      </section>
-
-
-
-
-
-
-
-
-
-      <!-- get started section  -->
-      <section class="get_started_section">
-        <button class="btn">Get Started</button>
-      </section>
-
+  <main>
+    <header>
+      <!-- logo section  -->
+          <section class="logo_section">
+            <img src="./images/logo.svg" alt="logo">
+          </section>
+          
       
-    </section>
+      <!-- nav links section  -->
+          <section class="mobile_responsive_nav_links" id="nav_links">
+            <section class="nav_links_section">
+              <nav class="nav_links">
+                <a href="#">Pricing</a>
+                <a href="#">Product</a>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Community</a>
+              </nav>
+            </section>
+      
+      <!-- get started section  -->
+            <section class="get_started_section">
+              <button class="btn">Get Started</button>
+            </section>
+          </section>
+      <!-- hamburger menu section -->
+          <section class="hamburger_menu">
+            <img id="menu" src="./images/icon-hamburger.svg" alt="menu icon">
+            <img id="cross_icon" src="./images/icon-close.svg" alt="menu close icon">
+          </section>
+        </header>
 
-    <section class="hamburger_menu">
-      <img id="menu" src="./images/icon-hamburger.svg" alt="menu icon">
-      <img id="cross_icon" src="./images/icon-close.svg" alt="menu close icon">
-    </section>
-
-  </header>
+<!--======================================
+  another section is called Hero Section  
+=========================================-->
 
 
+<section class="hero_section">
+  <div class="hero_text">
+    <h1> Bring everyone together to build better products.</h1>
 
-  </body>
+    <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+    <button class="btn">Get Started</button>
+  </div>
+
+  <div class="hero_image">
+    <img src="./images/illustration-intro.svg" alt="hero image">
+  </div>
+
+</section>
+
+
+<!--======================================
+  Manage section 
+=========================================-->
+<section class="manage_section">
+  <div class="manage_bio_section">
+    <h1>What's different about Manage?</h1>
+    <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
+  </div>
+
+<div class="manage_list">
+  <div class="list_item">
+    <div class="manage_title">
+        <span> 01 </span> 
+        <h2>Track company-wide progress</h2>
+    </div>
+
+    <div class="manage_description">
+      <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+    </div>
+  </div>
+
+
+<!-- another  -->
+
+  <div class="list_item">
+    <div class="manage_title">
+        <span> 02 </span> 
+        <h2>Track company-wide progress</h2>
+    </div>
+
+    <div class="manage_description">
+      <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+    </div>
+  </div>
+
+
+  <!-- another  -->
+
+  <div class="list_item">
+    <div class="manage_title">
+        <span> 03 </span> 
+        <h2>Track company-wide progress</h2>
+    </div>
+
+    <div class="manage_description">
+      <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--================================================
+                slider section 
+============================================ -->
+
+<section class="slider">
+      <h1>What they've said</h1>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+<!-- another 1-->
+      <div class="swiper-slide">
+        <div class="testimonial_box">
+          <div class="content">
+            <div class="imgBx">
+              <img src="./images/avatar-anisha.png">
+            </div>
+            <div class="details">
+              <h3>Anisha Li</h3>
+              <p>“Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- another 2-->
+      <div class="swiper-slide">
+        <div class="testimonial_box">
+          <div class="content">
+            <div class="imgBx">
+              <img src="./images/avatar-ali.png">
+            </div>
+            <div class="details">
+              <h3>Ali Bravo</h3>
+              <p>“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- another 3-->
+      <div class="swiper-slide">
+        <div class="testimonial_box">
+          <div class="content">
+            <div class="imgBx">
+              <img src="./images/avatar-richard.png">
+            </div>
+            <div class="details">
+              <h3>Richard Watts</h3>
+              <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone I talk to!”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- another 4-->
+      <div class="swiper-slide">
+        <div class="testimonial_box">
+          <div class="content">
+            <div class="imgBx">
+              <img src="./images/avatar-shanai.png">
+            </div>
+            <div class="details">
+              <h3>Shanai Gough</h3>
+              <p>“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive”.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- end -->
+    </div>
+  </div>
+
+
+<button class="btn">Get Started</button>
+  </section>
+  
+<!-- team work section  -->
+<section class="team_works_section">
+  <div class="team_works">
+    <div class="team_works_heading">
+      <h1>Simplify how your team works today.</h1>
+    </div>
+    <div class="team_works_button">
+      <button class="btn2">Get Started</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- last section is called footer section -->
+
+<section class="last_footer_section">
+  <div class="last_section">
+
+
+    <div class="footer_one">
+      <div class="footer-logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+
+      <div class="social_icons">
+        <div><img src="./images/icon-facebook.svg" alt="facebook"></div>
+        <div><img src="./images/icon-youtube.svg" alt="youtube"></div>
+        <div><img src="./images/icon-twitter.svg" alt="twitter"></div>
+        <div><img src="./images/icon-pinterest.svg" alt="pinterest"></div>
+        <div><img src="./images/icon-instagram.svg" alt="instagram"></div>
+      </div>
+    </div>
+
+
+    <!-- section two  -->
+    <div class="footer_two">
+      <a href="#">Home</a>
+      <a href="#">Pricing</a>
+      <a href="#">Products</a>
+      <a href="#">About Us</a>
+    </div>
+
+
+    <!-- section three  -->
+    <div class="footer_three">
+      <a href="#">Careers</a>
+      <a href="#">Community</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+
+
+    <!-- section four  -->
+    <div class="footer_four">
+      <div>
+        <input class="btn2" type="text" placeholder="Updates in your inbox"> <button class="btn">Go</button>
+      </div>
+      <footer>All right reserved @Mohaimin</footer>
+    </div>
+
+
+  </div>
+</section>
+</main>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>

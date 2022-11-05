@@ -15,6 +15,7 @@
         box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
         padding: 20px 0;
         transition: all .4s ease;
+        background-color: rgb(255, 237, 241);
     }
     #menu{
         display: block;
@@ -31,4 +32,130 @@
         flex-direction: column ;
         gap: 10px;
     }
+
+}
+
+@media(max-width: 1150px ){
+    /*===== starting hero section ===== */
+    .hero_section{
+        justify-content: center;
+        margin: 50px auto;
+        gap: 60px;
+    }
+    .hero_text{
+        text-align: center;
+        max-width: 630px;
+    }
+    /* image section  */
+    .hero_image img{
+        width: 100%;
+    }
+    /*========== manage section ======== */
+    .manage_section{
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        gap: 4rem;
+    }
+    .manage_bio_section{
+        max-width: 500px;
+        width: 100%;
+    }
+    .manage_bio_section h1{
+        font-size: 2rem;
+        color: #555;
+        margin-bottom: 2rem;
+    }
+    .manage_bio_section p{
+        font-size: 1rem;
+        color: #999;
+        max-width: 100%;
+        letter-spacing: .5px;
+    }
+}
+
+
+
+/* mobile size  */
+@media(max-width: 500px ){
+    .hero_section{
+        margin: 10px auto;
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+    .hero_text h1{
+        font-size: 1.8rem;
+    }
+    .hero_text p{
+        font-size: 1rem;
+        margin: 1.8rem 0;
+        color: #999;
+        letter-spacing: .5px;
+    }
+
+/* manage section  */
+    .manage_section{
+        padding: 10px 0 10px 10px;
+        justify-content: center;
+        text-align: center;
+        gap: 4rem;
+        margin-top: 3rem;
+    }
+    /* manage list  */
+    .manage_list{
+        max-width: 580px;
+        width: 100%;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .manage_title{
+        gap: 10px;
+        background-color:hsl(13, 100%, 96%);
+        border-radius:  20px 0 0 20px;
+    }
+    .manage_title h2{
+        font-size: 1rem;
+    }
+    .manage_title span{
+        background-color: orangered;
+        padding: 10px 20px;
+        border-radius: 45px;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .manage_description p{
+        padding-left: 10px;
+        margin-top: .8rem;
+        color: hsl(227, 12%, 61%);
+        letter-spacing: .5px;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .last_section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        margin: 40px 0;
+    }
+
+/* team work section  */
+    .team_works_section{
+        text-align: center;
+    }
+    .team_works{
+        justify-content: center;
+    }
+    .team_works_heading{
+        max-width: 100%;
+    }
+    .team_works_heading h1{
+        font-size: 1.7rem;
+    }
+   
 }
